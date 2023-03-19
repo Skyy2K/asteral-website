@@ -1,2 +1,5 @@
-console.log("TemplateServer");
-console.log("Website by: github.com/OLIMINATOR");
+function copyText(text) {
+    navigator.clipboard.writeText(text);
+
+    alert("Copied Server IP!");
+}
